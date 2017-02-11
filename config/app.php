@@ -177,6 +177,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // Bots
+        Mpociot\BotMan\BotManServiceProvider::class,
+
     ],
 
     /*
@@ -226,6 +229,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        // Bots
+        'BotMan' => Mpociot\BotMan\Facades\BotMan::class,
     ],
 
 ];
